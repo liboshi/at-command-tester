@@ -1,0 +1,33 @@
+<commands>
+    <testscript>
+        <command name="Main">
+           <cmd>ATD 13703136519;</cmd>
+           <resp>OK</resp>
+        </command>
+        <command name="Main">
+           <cmd>AT+CHUP</cmd>
+           <resp>OK</resp>
+           <info>None</info>
+        </command>
+    </testscript>
+    <testscript>
+        <command name="Main">
+           <cmd>ATI2</cmd>
+           <resp>OK</resp>
+        </command>
+    </testscript>
+    <testscript>
+        <command name="Main">
+           <cmd>ATS6=8</cmd>
+           <resp>OK</resp>
+        </command>
+        <command name="Main">
+           <cmd>ATD 13703136519;</cmd>
+           <resp>OK</resp>
+        </command>
+        <command name="Main">
+           <cmd>AT+CHUP</cmd>
+           <resp>OK</resp>
+        </command>
+    </testscript>
+</commands>
